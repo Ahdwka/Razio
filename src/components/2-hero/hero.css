@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alexandria:wght@100..900&family=Bebas+Neue&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.hero {
+  margin-top: 3rem;
+}
+
+.left-section {
+
+  flex-direction: column-reverse;
+}
+
+.right-section {
+  font-family: "Alexandria", serif;
+  font-size: 4em;
+  text-align: right;
+  margin-right: 2rem;
+  margin-left: auto;
+}
+
+/* icons */
+.W-I{
+    
+    align-items: end;
+}
+
+.icon-instagram,
+.icon-whatsapp {
+
+  color: var(--subtitle);
+  margin: 15px;
+  scale: 2;
+  box-shadow: 1px 1px 25px rgb(53, 50, 50, 0.5);
+
+}
+.icon-instagram:hover,
+.icon-whatsapp:hover {
+  color: var(--title);
+  scale: 2.1;
+  box-shadow: 1px 1px 25px rgba(72, 71, 71, 0.9);
+}
+
+.rog{
+    width: 400px;
+    height: auto;
+    position: sticky;
+    top: 1;
+    text-shadow: 1px 1px 30px rgba(72, 71, 71, 0.9) ;
+}
+@media (max-width: 1000px) {
+  .right-section {
+    font-size: 3em;
+    margin-right: 1.6rem;
+  }
+  .rog{
+    width: 300px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .right-section {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .rog{
+    width:200px ;
+    margin: 0;
+  }
+}
