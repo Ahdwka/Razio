@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@theme {
+  --color-bgHeader: rgb(39 39 42);
+  --color-borderr: rgba(63, 63, 70, 0.4);
+  --color-title: rgb(244 244 245);
+  --color-subtitle: rgb(161 161 170);
+  --color-blue1: rgb(93 188 252);
+}
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(240, 5.88%, 10%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.9;
+}
+
+
+.right-section {
+  font-family: "Alexandria", serif;
+  font-size: 4em;
+  color: var(--color-title);
+  text-align: right;
+  margin-right: 2rem;
+  margin-left: auto;
+  text-shadow:  1px 1px 30px rgba(90, 91, 91, 0.9);
+}
+@media (max-width: 640px) {
+  .right-section {
+    font-size: 2.5em;
+    margin: 0;
+  }}
+.divider {
+  border-bottom: 1px solid var(--color-borderr);
+  margin: 4rem ;
+}
