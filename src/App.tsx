@@ -5,10 +5,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div >
-        <Header />
-        <div className="divider"/>
-        <Body />
-        <Footer />
+        قحط ع هاد الموقع
+<a href={"/https://razio.store"}> https://razio.store<a>
     </div>
   );
 }
